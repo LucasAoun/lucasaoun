@@ -59,10 +59,10 @@ $('.smooth-scroll').on('click', function() {
 }
 
 // Mobile Menu
-// $('.navbar-toggler').on('click', function() {
-// 	// $(this).toggleClass('show');
-// 	$(".navbar-collapse").toggleClass("show");
-// });
+$('.navbar-toggler').on('click', function() {
+	$(this).toggleClass('show');
+	// $(".navbar-collapse").toggleClass("show");
+});
 
 $(".navbar-nav a").on('click', function() {
     $(".navbar-toggler").removeClass("show");
